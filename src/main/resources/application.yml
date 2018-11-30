@@ -1,0 +1,18 @@
+server:
+  servlet: 
+    context-path: /beautyspider
+  port: 19963
+spring: 
+  application: 
+    name: beautyspider
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true 
+#默认域名
+domain: http://www.27270.com
+#配置区域
+#标签id配置
+tag-list: MeiNv_3,work,cloths,outfit,Mote,Rtys
+#MeiNv_2,MeiNv_3,work,cloths,outfit,Mote,Rtys
+downloadFileDir: /meinv
